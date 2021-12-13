@@ -100,9 +100,7 @@ class MainActivity : AppCompatActivity() {
                     changePasswordButton.setBackgroundColor(Color.RED)
 
                 } else {
-                    //패스워드 실패
                     showErrorAlertDialog()
-
                 }
 
             }
